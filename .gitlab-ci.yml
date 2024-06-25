@@ -1,0 +1,71 @@
+stages:
+- build
+- prepare
+- release
+- deploy
+
+build:
+  stage: build
+  image: ghcr.io/typst/typst:latest
+  artifacts:
+    paths:
+      - thesis.pdf
+    expire_in: 1 week
+  script:
+  - typst compile thesis.typ
+
+prepare:
+  needs: ["build"]
+  stage: prepare
+  image: alpine:latest
+  before_script:
+    - apk add git
+    - apk add bash
+  script:
+  - VERSION=$(git tag --sort=-v:refname | head -n 1); # Get latest version from tags
+  - if [ -z "$VERSION" ]; then VERSION="0.0.0"; fi; # If no version, start with 0.0.0
+  - MAJOR=$(echo $VERSION | cut -d '.' -f 1) # Extract major version number
+  - MINOR=$(echo $VERSION | cut -d '.' -f 2) # Extract minor version number
+  - PATCH=$(echo $VERSION | cut -d '.' -f 3) # Extract patch version number
+  - MINOR=$((MINOR + 1)); # Increment MINOR version
+  - PATCH=0; # Reset PATCH version
+  - NEW_VERSION="$MAJOR.$MINOR.$PATCH"; # Create new version
+  - echo "NEW_VERSION=$NEW_VERSION" > variables.env; # Save new version to file
+  artifacts:
+    paths:
+      - variables.env
+    reports:
+      dotenv: variables.env
+    expire_in: 5 minutes
+
+
+release:
+  needs: ["prepare"]
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never                                  # Do not run this job when a tag is created manually
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  # Run this job when commits are pushed or merged to the default branch
+  script:
+    - echo "Releasing Bachelor Thesis $NEW_VERSION"
+
+  release:
+   name: "Bachelor Thesis $NEW_VERSION"
+   description: "Released by $GITLAB_USER_NAME"
+   tag_name: $NEW_VERSION
+   ref: $CI_COMMIT_SHA
+   assets:
+    links:
+      - name: "Thesis PDF"
+        url: "${CI_PROJECT_URL}/-/jobs/artifacts/${CI_COMMIT_REF_NAME}/download?job=build"
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - cp thesis.pdf public
+    - - echo "<object data='thesis.pdf' type='application/pdf' width='100%' height='100%'><p>Alternative text - include a link <a href='thesis.pdf'>to the PDF!</a></p></object>" > public/index.html
+  artifacts:
+    paths:
+      - public
+
