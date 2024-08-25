@@ -49,14 +49,14 @@
       } else if  it.level==2 {
         set text(font: body-font, weight: "semibold", size: 10pt)
         v(0.5em)
-        text(upper(it.body))
+        text(upper(numbering(it.numbering,..counter(heading).at(it.location())) +" " + it.body))
         v(0.5em)
         parbreak()
       }
       else {
         set text(font: body-font, style: "italic", weight: "thin", size: 11pt)
         v(0.5em)
-        text(upper(it.body))
+        text(upper(numbering(it.numbering,..counter(heading).at(it.location())) +" " + it.body))
         v(0.5em)
         parbreak()
       }
