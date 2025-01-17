@@ -1,18 +1,11 @@
 
-#let abstractDE(title: "Zusammenfassung", layoutConfig: none) = {
+#let abstractDE(title: "Abstract", layoutConfig: none) = {
   show: layoutConfig
   heading(numbering: none,outlined: false, bookmarked: true, title)
   v(1em)
   text()[
-    Kurze Zusammenfassung des Inhaltes in deutscher Sprache von ca. einer Seite länge. Dabei sollte vor allem auf die folgenden Punkte eingegangen werden:\
-    \
-    - Motivation: Wieso ist diese Arbeit entstanden? Warum ist das Thema der Arbeit (für die Allgemeinheit) interessant? Dabei sollte die Motivation von der konkreten Aufgabenstellung, z.B. durch eine Firma, weitestgehend abstrahiert werden. 
-    - Inhalt: Was ist Inhalt der Arbeit? Was genau wird in der Arbeit behandelt? Hier sollte kurz auf Methodik und Arbeitsweise eingegangen werden.
-    - Ergebnisse: Was sind die Ergebnisse der Arbeit? Ein kurzer Überblick über die wichtigsten Ergebnisse als Teaser, um die Arbeit vollständig zu lesen.\
-    \
-      BTW: A great guide by Kent Beck how to write good abstracts can be found here:
+    Diese Arbeit untersucht die sozialen und organisatorischen Konsequenzen der langfristigen Anhäufung von technischen Schulden in Softwareunternehmen. \ Technische Schulden entstehen durch Kompromisse in der Softwareentwicklung und können sich zu einem unüberwindbaren Hindernis entwickeln, das die Motivation und Zusammenarbeit im Team beeinträchtigt.\
+    Die Arbeit analysiert die Faktoren, die zu dieser Anhäufung führen, und beleuchtet die Auswirkungen der zunehmenden Codekomplexität auf die Arbeitszufriedenheit und die Teamdynamik. Sie untersucht, wie sich die ständige Konfrontation mit veraltetem Code auf die Motivation der Entwickler, die Kommunikation im Team und die Bereitschaft zur Veränderung auswirkt. \
+    Durch die Verbindung von theoretischen Grundlagen mit empirischen Erkenntnissen vermittelt die Arbeit ein umfassendes Verständnis der Konsequenzen von technischen Schulden und zeigt auf, wie Softwareunternehmen die negativen Auswirkungen minimieren und ein produktives Arbeitsumfeld fördern können.
   ]
-  align(center, [
-    https://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html]
-  )
 }

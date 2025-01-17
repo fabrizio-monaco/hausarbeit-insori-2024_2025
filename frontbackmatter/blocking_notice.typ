@@ -3,7 +3,6 @@
   heading(numbering: none,outlined: false, bookmarked: true, title)
   v(1em)
   text()[
-    Diese Abschlussarbeit darf nur von der Referentin/ dem Referenten, der Korreferentin \/ dem Korreferenten sowie den vom Prüfungsausschuss dazu beauftragten Hochschulangehörigen eingesehen werden. Sie darf ohne ausdrückliche Zustimmung des Autors
-    weder vollständig noch auszugsweise vervielfältigt, veröffentlicht oder Dritten zugänglich gemacht werden. Die Durchführung des Kolloquiums bleibt von der Geheimhaltung unberührt. Die Geheimhaltungsverpflichtung erlischt fünf Jahre nach Einreichung automatisch.
+    Diese Hausarbeit dient ausschließlich der Bewertung im Rahmen des entsprechenden Moduls und darf nur von der prüfenden Person sowie gegebenenfalls weiteren dazu befugten Personen innerhalb der Hochschule eingesehen werden. Jegliche Vervielfältigung, Veröffentlichung oder Weitergabe an Dritte ist ohne ausdrückliche Zustimmung des Verfassers / der Verfasserin unzulässig.
   ]
 }

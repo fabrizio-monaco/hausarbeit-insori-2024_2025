@@ -46,7 +46,7 @@
 
   v(15mm)
 
-  align(center, text(font: sans-font, 1.3em, weight: 100, "Abschlussarbeit zur Erlangung des akademischen Grades \n" + degree))
+  align(center, text(font: sans-font, 1.3em, weight: 100, "Interdisziplinäre und sozialwissenschaftliche \n Reflexion der Informatik \n"))
 
  v(20mm)
 
@@ -59,7 +59,7 @@
     row-gutter: (10pt),
     column-gutter: (15pt),
     align(right,strong("Referent    :")),text(myProf),"",
-    align(right,strong("Korreferent :")),text(myOtherProf),""
+    //align(right,strong("Korreferent :")),text(myOtherProf),""
   )
   pagebreak()
 }

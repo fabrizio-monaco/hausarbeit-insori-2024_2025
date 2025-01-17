@@ -9,15 +9,15 @@ You can also reference chapters, figures or bib entries with typst built in refe
 Additionally you can omit the default prefix (chapter or figure) when referencing like here @ch:literature:review[]. Alternatively you can replace it with a custom one like here @fig:bubble_sort[Custom prefix].
 
 
-== Motivation
+== Problemstellung
 #lorem(10)
 #gls("DRY")
 #lorem(10)
 #gls("DRY")
-== Ziel der Arbeit
+== Motivation und Ziele
 #lorem(10)
 #gls("API")
-== Gliederung
+== Überblick zum Vorgehen
 #lorem(10)
 #gls("API")
 #lorem(10)

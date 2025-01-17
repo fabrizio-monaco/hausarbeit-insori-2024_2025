@@ -1,11 +1,13 @@
 #import "@preview/glossarium:0.2.6": make-glossary, print-glossary, gls, glspl
 #import "../thesis_typ/helper-functions.typ": *
+
 = Theoretische Grundlagen
-<ch:literature:review>
+<ch:theoretical_basics>
+
 == Projekterfolg
-#lorem(100)
-@bruegge2004object
+<ch:theoretical_basics:success>
 
 == Arbeitsmotivation
-#lorem(100)
-@bruegge2004object
+<ch:theoretical_basics:working_motivation>
+#lorem(10)
+#gls("API")

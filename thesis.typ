@@ -1,7 +1,6 @@
 #import "thesis-config.typ": *
 #import "thesis_typ/main_layout_config.typ": *
 
-
 #set document(title: title, author: author)
 
 //begin page numbering with roman letters
@@ -39,8 +38,8 @@
 #blockingNotice(layoutConfig: mainLayoutConfig)
 
 //output abstract
-#import "frontbackmatter/abstract_en.typ": abstractEN
-#abstractEN(layoutConfig: mainLayoutConfig)
+//#import "frontbackmatter/abstract_en.typ": abstractEN
+//#abstractEN(layoutConfig: mainLayoutConfig)
 
 //output abstract de
 #import "frontbackmatter/abstract_de.typ": abstractDE
@@ -63,9 +62,14 @@
 #counter(page).update(1)
 
 // include you chapters here
-#include "./chapters/chapter1.typ"
-#include "./chapters/chapter2.typ"
-#include "./chapters/chapter3.typ"
+#include "./chapters/1_einleitung.typ"
+//#include "chapters/2_theoretical_basics.typ"
+#include "chapters/3_technical_debt.typ"
+#include "chapters/4_effects_technical_debt.typ"
+#include "chapters/5_conclusion.typ"
+//#include "./chapters/chapter1.typ"
+//#include "./chapters/chapter2.typ"
+//#include "./chapters/chapter3.typ"
 #include "./chapters/appendix.typ"
 
 // "springer-lecture-notes-in-computer-science"
