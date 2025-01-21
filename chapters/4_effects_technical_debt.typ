@@ -42,11 +42,14 @@ Die Motivation von Entwicklern wird durch verschiedene Faktoren beeinflusst, dar
 Technische Schulden können diese essenziellen Motivationsfaktoren erheblich beeinträchtigen. Wenn Entwickler regelmäßig mit schlecht strukturiertem, schwer verständlichem oder fehleranfälligem Code konfrontiert werden, fühlen sie sich oft entmündigt und frustriert. [Quelle] Anstatt kreativ und produktiv zu arbeiten, verbringen sie unverhältnismäßig viel Zeit mit der Behebung von Problemen, der Umgehung von Einschränkungen und der Analyse von Altlasten im Code. [Quelle] Der Mangel an Gestaltungsfreiheit und die ständige Auseinandersetzung mit wiederkehrenden Herausforderungen können dazu führen, dass Entwickler das Gefühl von Sinnhaftigkeit und Kontrolle über ihre Arbeit verlieren. Dies kann nicht nur die individuelle Arbeitszufriedenheit, sondern auch die Dynamik und Effizienz des gesamten Teams negativ beeinflussen.
 
 === Die psychologische Change-Kurve
-Wenn technischer Schulden zu einem Problem wird, müssen oft Veränderungen im Entwicklungsprozess oder in der Teamstruktur vorgenommen werden, um die Schulden abzubauen und die Softwarequalität zu verbessern. [Quelle] Solche Veränderungen lösen bei den Betroffenen oft emotionale Reaktionen aus, die sich mit der psychologischen Change-Kurve beschreiben lassen. [Quelle] \
+Wenn technische Schuld zu einem Problem wird, kann es sinnvoll sein, Veränderungen im Entwicklungsprozess oder in der Teamstruktur vorzunehmen, um die Schulden abzubauen und die Softwarequalität zu verbessern. Solche Veränderungen lösen bei den Betroffenen oft emotionale Reaktionen aus, die sich mit der psychologischen Change-Kurve beschreiben lassen. [Quelle] \
 
+#show link: underline
 #figure(
   image("../figures/change-kurve-nach-kuebler-ross-streich.png", width: 100%),
-  caption: [Die Kübler-Ross-Change-Kurve],
+  caption: [
+    #text("Die psychologische Change-Kurve nach Kübler-Ross") #ccite("ChangeKu88:online"),
+  ],
 )<fig:change_curve>
 
 #pagebreak()
