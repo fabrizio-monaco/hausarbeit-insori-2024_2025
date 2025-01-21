@@ -13,7 +13,7 @@ Technische Schulden - ein Begriff, der in der Informatik vor allem in Bereich So
 Technische Schulden lassen sich in verschiedene Kategorien unterteilen. Eine grundlegende Unterscheidung besteht zwischen bewussten und versehentlichen Schulden #ccite("medium:defining-identifying-and-measuring-technical-debt"). \ 
 Bewusste Schulden entstehen, wenn ein Team bewusst eine schnelle Umsetzung oder eine suboptimale Lösung wählt, um ein Ziel mit den vorgegebenen Ressourcenbeschränkungen zu erreichen - ein typisches Beispiel ist die schnellere Markteinführung eines Produkts. Dabei wird der Code nicht perfekt umgesetzt, um schnelleres Kundenfeedback zu erhalten. 
 #pagebreak()
-Versehentliche Schulden hingegen resultieren aus mangelnder Erfahrung, Nachlässigkeit oder unzureichender Planung, wobei Fehler oder suboptimale Entscheidungen unbeabsichtigt auftreten.
+Versehentliche Schulden hingegen resultieren aus mangelnder Erfahrung, Nachlässigkeit oder unzureichender Planung, wobei Fehler oder suboptimale Entscheidungen unbeabsichtigt auftreten
 
 Martin Fowler erweiterte das Konzept dieser Unterscheidung und erstellte damit den "Technischen Schuldenquadranten" @fig:techdebtquadrant \ Dieser Quadrant klassifiziert technische Schulden anhand von zwei Dimensionen: *Rücksichtslos* und *Umsicht*. Dadurch entstehen vier Kategorien:
 #figure(
