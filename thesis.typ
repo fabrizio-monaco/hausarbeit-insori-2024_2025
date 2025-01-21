@@ -70,7 +70,7 @@
 //#include "./chapters/chapter1.typ"
 //#include "./chapters/chapter2.typ"
 //#include "./chapters/chapter3.typ"
-#include "./chapters/appendix.typ"
+//#include "./chapters/appendix.typ"
 
 // "springer-lecture-notes-in-computer-science"
-#bibliography("./thesis.bib", title: "Literaturverzeichnis",style: "./thesis_typ/springer-lecture-notes-in-computer-science.csl")
+#bibliography("./thesis.bib", title: "Literaturverzeichnis")

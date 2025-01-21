@@ -63,3 +63,11 @@
   }
   raw(file,lang: lang)
 }
+
+#let ccite(labelref) = {
+  cite(label(labelref), style: "ISO-690-numeric-en.csl")
+}
+
+#let ccitenum(labelref, siteref) = {
+  cite(label(labelref), supplement: siteref, style: "ISO-690-numeric-en-with-pages.csl")
+}
