@@ -21,17 +21,17 @@ Die Wartung von Software mit hohen technischen Schulden ist oft deutlich aufwän
 Empirische Studien belegen diese Zusammenhänge. Eine Untersuchung ergab, dass technische Schulden die Wartungskosten signifikant erhöhen und dass die durschnittlichen Mehrkosten, um diese Schulden abzubezahlen 3.61\$ betragen. #ccitenum("Guo2014", "160") Zudem wurde festgestellt, dass Systeme mit hoher technischer Verschuldung eine erhöhte Fehleranfälligkeit aufweisen, was die Wartung weiter verkompliziert. \
 Diese Befunde unterstreichen die Notwendigkeit eines effektiven Managements technischer Schulden, um langfristige Kosten zu minimieren und die Wettbewerbsfähigkeit zu erhalten.
 
-=== Erschwerte Zusammenarbeit
-Wenn der Code schwer verständlich und undokumentiert ist, wird die Zusammenarbeit im Team erschwert. [Quelle] Es ist schwieriger, Code von anderen Entwicklern zu verstehen und zu ändern, was zu Missverständnissen, Fehlern und Konflikten führen kann. Gerade in größeren Teams oder bei verteilter Entwicklung kann technischer Schulden die Kommunikation und Koordination erheblich behindern. [Quelle] Die fehlende Transparenz und die Schwierigkeiten bei der Code-Integration können zu Frustration und Demotivation im Team führen. [Quelle] Studien haben gezeigt, dass technischer Schulden zu einer erhöhten Fluktuation in Entwicklungsteams führen kann, da Entwickler es vorziehen, in einem Umfeld zu arbeiten, in dem sie sich auf die Entwicklung neuer Features konzentrieren können, anstatt ständig mit "altem Ballast" zu kämpfen.
-
 === Geringere Flexibilität
-Technischer Schulden reduziert die Flexibilität der Software. [Quelle] Es wird schwieriger, die Software an neue Anforderungen anzupassen oder neue Technologien zu integrieren, da Änderungen am Code oft unvorhergesehene Nebenwirkungen haben können. Die Software wird "starr" und "unflexibel", was die Innovationsfähigkeit des Unternehmens einschränken und die Wettbewerbsfähigkeit beeinträchtigen kann. [Quelle] In der heutigen dynamischen Geschäftswelt ist es wichtig, dass Unternehmen schnell auf veränderte Marktbedingungen reagieren können. Software mit hohen technischen Schulden hindert Unternehmen daran, neue Produkte und Dienstleistungen zu entwickeln oder bestehende Angebote anzupassen. Dies kann zu einem Wettbewerbsnachteil führen und die langfristigen Erfolgsaussichten des Unternehmens gefährden.
+Technische Schulden reduzieren die Anpassungsfähigkeit und Flexibilität von Software erheblich. [Quelle] \
+Änderungen am Code bergen häufig das Risiko unvorhergesehener Nebenwirkungen, was die Integration neuer Technologien oder die Anpassung an geänderte Anforderungen erschwert. Dadurch wird die Software zunehmend starr und unflexibel, was die Innovationsfähigkeit des Unternehmens hemmt und langfristig die Wettbewerbsfähigkeit gefährden kann. \
+
+Insbesondere in einem dynamischen Marktumfeld ist die Fähigkeit, schnell auf neue Gegebenheiten zu reagieren, ein entscheidender Erfolgsfaktor. Software mit hohen technischen Schulden stellt dabei ein erhebliches Hindernis dar, da sie die Entwicklung neuer Produkte oder die Optimierung bestehender Dienstleistungen verlangsamt oder gar blockiert. [Quelle] \ Dies kann zu einem nachhaltigen Wettbewerbsnachteil führen und die zukünftigen Erfolgsaussichten des Unternehmens stark beeinträchtigen.
 
 #pagebreak()
 
 == Team
 <ch:effects_technical_debt:team>
-Während die technischen Auswirkungen von Schulden oft offensichtlich sind, werden die psychologischen und soziologischen Folgen für das Entwicklerteam häufig unterschätzt. [Quelle]  Dabei ist ein motiviertes und effizientes Team essenziell für den Erfolg eines Softwareprojekts. Technischer Schulden kann jedoch die Motivation, die Zusammenarbeit und die Teamdynamik negativ beeinflussen und somit die Produktivität und die Qualität der Software beeinträchtigen. [Quelle] Um diese Auswirkungen zu verstehen, ist es hilfreich, sich mit den grundlegenden Faktoren der menschlichen Motivation und den typischen Reaktionen auf Veränderungen auseinanderzusetzen.
+Technische Schulden beeinflussen nicht nur die Software selbst, sondern auch die Menschen, die sie entwickeln. Während die technischen Konsequenzen oft im Vordergrund stehen, werden die Auswirkungen auf Motivation, Zusammenarbeit und Team-Dynamik häufig übersehen. Ein Softwareprojekt ist jedoch nur so erfolgreich wie das Team, das dahintersteht. Wenn technische Schulden die tägliche Arbeit erschweren, können Frustration und Überlastung die Folge sein, was langfristig die Leistungsfähigkeit des gesamten Teams gefährdet. Um diese Zusammenhänge zu verstehen, lohnt es sich, die psychologischen und sozialen Dimensionen technischer Schulden genauer zu betrachten.
 
 === Motivation und Arbeitszufriedenheit
 Die Motivation von Entwicklern wird durch verschiedene Faktoren beeinflusst, darunter:
@@ -39,10 +39,19 @@ Die Motivation von Entwicklern wird durch verschiedene Faktoren beeinflusst, dar
 - Kompetenz: Der Wunsch, sich fachlich weiterzuentwickeln und die eigenen Fähigkeiten zu verbessern. [Quelle]
 - Soziale Eingebundenheit: Das Bedürfnis nach Zugehörigkeit und Anerkennung im Team. [Quelle]
 - Sinnhaftigkeit: Das Gefühl, an etwas Sinnvollem zu arbeiten und einen Beitrag zu leisten. [Quelle]
-Technischer Schulden kann diese Motivationsfaktoren negativ beeinflussen. Wenn Entwickler ständig mit schlecht geschriebenem Code und technischen Schulden kämpfen müssen, fühlen sie sich oft entmündigt, frustriert und demotiviert. [Quelle] Sie haben weniger Freiraum für kreative Lösungen und müssen viel Zeit mit der Behebung von Fehlern und der Umgehung von Problemen verbringen, anstatt sich auf die Entwicklung neuer Features konzentrieren zu können. [Quelle] Dies kann zu einem Gefühl der Ohnmacht und Sinnlosigkeit führen.
+Technische Schulden können diese essenziellen Motivationsfaktoren erheblich beeinträchtigen. Wenn Entwickler regelmäßig mit schlecht strukturiertem, schwer verständlichem oder fehleranfälligem Code konfrontiert werden, fühlen sie sich oft entmündigt und frustriert. [Quelle] Anstatt kreativ und produktiv zu arbeiten, verbringen sie unverhältnismäßig viel Zeit mit der Behebung von Problemen, der Umgehung von Einschränkungen und der Analyse von Altlasten im Code. [Quelle] Der Mangel an Gestaltungsfreiheit und die ständige Auseinandersetzung mit wiederkehrenden Herausforderungen können dazu führen, dass Entwickler das Gefühl von Sinnhaftigkeit und Kontrolle über ihre Arbeit verlieren. Dies kann nicht nur die individuelle Arbeitszufriedenheit, sondern auch die Dynamik und Effizienz des gesamten Teams negativ beeinflussen.
 
 === Die psychologische Change-Kurve
-Wenn technischer Schulden zu einem Problem wird, müssen oft Veränderungen im Entwicklungsprozess oder in der Teamstruktur vorgenommen werden, um die Schulden abzubauen und die Softwarequalität zu verbessern. [Quelle] Solche Veränderungen lösen bei den Betroffenen oft emotionale Reaktionen aus, die sich mit der psychologischen Change-Kurve beschreiben lassen. [Quelle] Diese Kurve zeigt die typischen Phasen, die Menschen durchlaufen, wenn sie mit Veränderungen konfrontiert werden:
+Wenn technischer Schulden zu einem Problem wird, müssen oft Veränderungen im Entwicklungsprozess oder in der Teamstruktur vorgenommen werden, um die Schulden abzubauen und die Softwarequalität zu verbessern. [Quelle] Solche Veränderungen lösen bei den Betroffenen oft emotionale Reaktionen aus, die sich mit der psychologischen Change-Kurve beschreiben lassen. [Quelle] \
+
+#figure(
+  image("../figures/change-kurve-nach-kuebler-ross-streich.png", width: 100%),
+  caption: [Die Kübler-Ross-Change-Kurve],
+)<fig:change_curve>
+
+#pagebreak()
+
+Diese Kurve zeigt die typischen Phasen, die Menschen durchlaufen, wenn sie mit Veränderungen konfrontiert werden:
 
  + Schock und Verleugnung: Die erste Reaktion auf die Veränderung ist oft Unglaube und Ablehnung. [Quelle]
  + Frustration und Ärger: Wenn die Veränderung unvermeidlich ist, kommt es oft zu Frustration und Ärger. [Quelle]
