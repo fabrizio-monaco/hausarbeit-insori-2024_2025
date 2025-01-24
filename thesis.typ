@@ -55,6 +55,7 @@
 #tableOfAcronyms(title: "Abkürzungsverzeichnis",layoutConfig: mainLayoutConfig)
 
 
+
 // set layout config
 #show: mainLayoutConfig
 //change page numbering back to normal

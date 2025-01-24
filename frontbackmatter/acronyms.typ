@@ -6,10 +6,43 @@
   v(1em)
   print-glossary((
     // minimal term
-    (key: "DRY", short: "DRY", long: "Don't Repeat Yourself", desc: "a principle of software development aimed at reducing repetition"),
-    (key: "API", short: "API", long: "Application Programming Interface", desc: "a standardized general-purpose modeling language in the field of software engineering"),
-    (key: "UML", short: "UML", long: "Unified Modeling Language", desc: "a set of rules and protocols for building and interacting with software applications"),
-    (key: "Releasezyklen", short: "Releasezyklen", long: "", desc: "die Zeit zwischen zwei aufeinanderfolgenden Software-Veröffentlichungen"),
-    (key: "Legacy Code", short: "Legacy Code", long: "", desc: "veralteter Code, der schwer zu verstehen und zu warten ist")
+    (
+      key: "releasezyklen",
+      short: "",
+      long: "Releasezyklen",
+      desc: "die Zeit zwischen zwei aufeinanderfolgenden Software-Veröffentlichungen"
+      ),
+      (
+      key: "legacy_code",
+      short: "",
+      long: "Legacy Code",
+      desc: "veralteter Code, der schwer zu verstehen und zu warten ist"
+      ),
+      (
+      key: "codequalität",
+      short: "",
+      long: "Codequalität",
+      desc: "die Güte des geschriebenen Programmcodes, gemessen an Kriterien wie Lesbarkeit, Wartbarkeit, Effizienz und Fehlerfreiheit"
+      ),
+      (
+      key: "codebasis",
+      short: "",
+      long: "Codebasis",
+      desc: "die Gesamtheit des Quellcodes eines Softwareprojekts"
+      ),
+      (
+      key: "agile_methoden",
+      short: "",
+      long: "Agile Methoden",
+      desc: "flexible und iterative Ansätze in der Softwareentwicklung, die auf kurze Entwicklungszyklen und enge Zusammenarbeit mit dem Kunden setzen"
+      ),
+      (
+        key: "technische_nachhaltigkeit",
+        short: "",
+        long: "Technische Nachhaltigkeit",
+        desc: "Die Fähigkeit von Software, über einen langen Zeitraum hinweg wartbar, erweiterbar und an neue Anforderungen anpassbar zu sein."
+      ),
+
+
     ))
 }
