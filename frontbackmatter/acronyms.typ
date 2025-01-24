@@ -42,6 +42,24 @@
         long: "Technische Nachhaltigkeit",
         desc: "Die Fähigkeit von Software, über einen langen Zeitraum hinweg wartbar, erweiterbar und an neue Anforderungen anpassbar zu sein."
       ),
+      (
+        key: "refactoring",
+        short: "",
+        long: "Refactoring",
+        desc: "die strukturelle Verbesserung des Quellcodes, ohne das Verhalten der Software zu ändern"
+      ),
+      (
+        key: "bug",
+        short: "",
+        long: "Bug",
+        desc: "ein Fehler oder Defekt in der Software, der unerwünschtes Verhalten verursacht"
+      ),
+      (
+        key: "workaround",
+        short: "",
+        long: "Workaround",
+        desc: "eine temporäre Lösung für ein Problem, die nicht die eigentliche Ursache behebt"
+      ),
 
 
     ))
