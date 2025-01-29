@@ -1,4 +1,4 @@
-#import "@preview/glossarium:0.2.6": make-glossary, print-glossary, gls, glspl
+#import "@preview/glossarium:0.5.1": make-glossary, register-glossary, print-glossary, gls, glspl
 #import "../thesis_typ/helper-functions.typ": *
 = Technische Schulden
 <ch:literature:chapter3>

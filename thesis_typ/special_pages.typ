@@ -45,8 +45,8 @@
 }
 
 #let secondPage(
-  title: "",
-  author: "",
+  title: "test",
+  author: "test",
   submissionDate: ""
 ) = {
   set page(footer: "")

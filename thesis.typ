@@ -50,9 +50,9 @@
 #tableOfContents(title: "Inhaltsverzeichnis", layoutConfig: mainLayoutConfig)
 #tableOfFigures(title: "Abbildungsverzeichnis",layoutConfig: mainLayoutConfig)
 #tableOfTables(title: "Tabellenverzeichnis",layoutConfig: mainLayoutConfig)
-#tableOfListings(title: "Listings",layoutConfig: mainLayoutConfig)
+//#tableOfListings(title: "Listings",layoutConfig: mainLayoutConfig)
 #import "frontbackmatter/acronyms.typ": tableOfAcronyms
-#tableOfAcronyms(title: "Abkürzungsverzeichnis",layoutConfig: mainLayoutConfig)
+#tableOfAcronyms(title: "Begriffsdefinitionen",layoutConfig: mainLayoutConfig)
 
 
 

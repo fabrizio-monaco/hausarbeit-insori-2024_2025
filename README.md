@@ -35,7 +35,7 @@ to change the document language, font or default text size. Just change the vari
 This template uses the [glossarium library](https://typst.app/universe/package/glossarium/) to display acronyms.
 To use acronyms you need to import the library at the top of each chapter file and call the **gls** function with the desired acronym:
 ```typst
-#import "@preview/glossarium:0.2.6": make-glossary, print-glossary, gls, glspl
+#import "@preview/glossarium:0.5.1": make-glossary, register-glossary, print-glossary, gls, glspl
 
 //usage
 #gls("DRY")
