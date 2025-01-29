@@ -6,31 +6,31 @@
     key: "releasezyklen",
     short: "",
     long: "Releasezyklen",
-    description: "die Zeit zwischen zwei aufeinanderfolgenden Software-Veröffentlichungen"
+    description: "Die Zeit zwischen zwei aufeinanderfolgenden Software-Veröffentlichungen"
   ),
   (
     key: "legacy_code",
     short: "",
     long: "Legacy Code",
-    description: "veralteter Code, der schwer zu verstehen und zu warten ist"
+    description: "Veralteter Code, der schwer zu verstehen und zu warten ist"
   ),
   (
     key: "codequalität",
     short: "",
     long: "Codequalität",
-    description: "die Güte des geschriebenen Programmcodes, gemessen an Kriterien wie Lesbarkeit, Wartbarkeit, Effizienz und Fehlerfreiheit"
+    description: "Die Güte des geschriebenen Programmcodes, gemessen an Kriterien wie Lesbarkeit, Wartbarkeit, Effizienz und Fehlerfreiheit"
   ),
   (
     key: "codebasis",
     short: "",
     long: "Codebasis",
-    description: "die Gesamtheit des Quellcodes eines Softwareprojekts"
+    description: "Die Gesamtheit des Quellcodes eines Softwareprojekts"
   ),
   (
     key: "agile_methoden",
     short: "",
     long: "Agile Methoden",
-    description: "flexible und iterative Ansätze in der Softwareentwicklung, die auf kurze Entwicklungszyklen und enge Zusammenarbeit mit dem Kunden setzen"
+    description: "Flexible und iterative Ansätze in der Softwareentwicklung, die auf kurze Entwicklungszyklen und enge Zusammenarbeit mit dem Kunden setzen"
   ),
   (
     key: "technische_nachhaltigkeit",
@@ -42,31 +42,31 @@
     key: "refactoring",
     short: "",
     long: "Refactoring",
-    description: "die strukturelle Verbesserung des Quellcodes, ohne das Verhalten der Software zu ändern"
+    description: "Die strukturelle Verbesserung des Quellcodes, ohne das Verhalten der Software zu ändern"
   ),
   (
     key: "bug",
     short: "",
     long: "Bug",
-    description: "ein Fehler oder Defekt in der Software, der unerwünschtes Verhalten verursacht"
+    description: "Ein Fehler oder Defekt in der Software, der unerwünschtes Verhalten verursacht"
   ),
   (
     key: "workaround",
     short: "",
     long: "Workaround",
-    description: "eine temporäre Lösung für ein Problem, die nicht die eigentliche Ursache behebt"
+    description: "Eine temporäre Lösung für ein Problem, die nicht die eigentliche Ursache behebt"
   ),
   (
     key: "best_practices",
     short: "",
     long: "Best Practices",
-    description: "bewährte Methoden und Vorgehensweisen im Programmierstil, die sich in der Praxis als besonders effektiv und effizient erwiesen haben"
+    description: "Bewährte Methoden und Vorgehensweisen im Programmierstil, die sich in der Praxis als besonders effektiv und effizient erwiesen haben"
   ),
   (
     key: "ad_hoc_solution",
     short: "",
     long: "Ad-hoc-Lösung",
-    description: "eine kurzfristige, improvisierte Lösung für ein Problem, die nicht langfristig geplant oder strukturiert ist"
+    description: "Eine kurzfristige, improvisierte Lösung für ein Problem, die nicht langfristig geplant oder strukturiert ist"
   )
 )
 
